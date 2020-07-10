@@ -1,12 +1,17 @@
+@import "main.css"
+
 .year {
     font-size: 40px;
 }
 
 body {
-    padding-bottom: 80px;
+    
 }
 .col{
     color: white;
+}
+.inine{
+    display: inline;
 }
 .rotate {
 
@@ -36,11 +41,55 @@ body {
   
   
 }
+
+@font-face {
+  font-family: roman;
+  src: url(font/time.ttf);
+}
+.black{
+    background-color: black;
+    color: white;
+}
+.fd{
+    border-width: thin; 
+    border-color: black;
+    border-style: solid;
+}
+.fd2{
+     padding-left:10px;
+    padding-right:10px;
+   
+}
+.just{
+    text-align: justify;
+    
+    
+}
+.min{
+    font-size: 14px
+    
+}
 .end{
     color: white;
     background-color: black;
+   
+    padding-top: 20px;
+     
 }
-
+.contact{
+    float: right;
+    display: inline;
+}
+.vl2{
+     border-right: 1px solid black;
+border-color: black;
+  
+    
+}
+.inline{
+    align-content:
+    
+}
 .vl {
   border-left: 2px solid black;
 border-color: black;
@@ -54,4 +103,11 @@ border-color: black;
     background-color:white;
     color:black;
     height: 100px;
+}
+
+
+.end{
+    background-color: #FFDA1F;
+    color: #2F2E2E;
+    
 }
