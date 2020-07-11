@@ -28,6 +28,7 @@
         </head>
 
         <body style="font-family:roman">
+            <?php include 'captch/query.php; ?>
 
             <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #FFDA1F">
       <a class="navbar-brand" href="#">AUTO GLASS FITTER</a>
@@ -36,25 +37,47 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto" style="font-size:18px">
           <li class="nav-item active">
-            <a class="nav-link" href="#">ABOUT US<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">About Us<span class="sr-only">(current)</span></a>
           </li>
 
-          <li class="nav-item dropdown">
+          <li class="nav-item dropdown active">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              CHANNEL PARTNERS
+              Channel Partner
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #FFDA1F">
+              <a class="dropdown-item" href="insurance.html">Insurance Partner</a><div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="partner.html">Service Partner</a><div class="dropdown-divider"></div>
+              
             </div>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">OUR SERVICES<span class="sr-only">(current)</span></a>
+            
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Product and Service
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #FFDA1F">
+              <a class="dropdown-item" href="insurance.html">Windshield Replacement</a><div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Rear Glass Replacement</a><div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Side Window Replacement</a><div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Wiper Blade Check and<br>Replacement</a><div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Polyurethane Sealent</a>
+            </div>
           </li>
+           <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Insurance Claim
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #FFDA1F">
+              <a class="dropdown-item" href="claim.html">Claim Form</a><div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Document Required</a>
+            </div>
+          </li>
+          
           <form class="form-inline ">
             <div class="col-auto">
           <input class="form-control" style="width:150px" type="text" placeholder="Enter City" aria-label="Search">
